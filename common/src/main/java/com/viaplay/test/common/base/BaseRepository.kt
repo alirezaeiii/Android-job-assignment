@@ -81,8 +81,8 @@ abstract class BaseRepository<DataType, QueryType, FetchType>(
         }
     }
 
-    private suspend fun refresh(fetchValue: FetchType?) {
-        saveFetchResult(fetch(fetchValue))
+    private suspend fun refresh(fetchParam: FetchType?) {
+        saveFetchResult(fetch(fetchParam))
     }
 
     private fun isCacheExpired(): Boolean {

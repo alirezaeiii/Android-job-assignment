@@ -1,10 +1,9 @@
-package com.viaplay.test.feature.properties
+package com.viaplay.test.feature.dashboard
 
 import app.cash.turbine.test
 import com.viaplay.test.common.base.BaseRepository
 import com.viaplay.test.common.utils.Async
 import com.viaplay.test.domain.model.Link
-import com.viaplay.test.feature.dashboard.LinksViewModel
 import io.mockk.every
 import io.mockk.mockk
 import kotlinx.coroutines.Dispatchers
