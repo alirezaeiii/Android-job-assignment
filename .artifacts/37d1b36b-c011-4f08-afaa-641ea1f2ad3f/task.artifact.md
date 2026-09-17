@@ -1,0 +1,5 @@
+- [x] Write `SectionRepositoryTest`
+- [x] Write `SectionViewModelTest`
+- [x] Verify changes
+    - [x] Run `:core:data:testDebugUnitTest`
+    - [x] Run `:feature:feature-details:testDebugUnitTest`
